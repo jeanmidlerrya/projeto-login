@@ -17,6 +17,7 @@ tv: acima 1200px
 
     section#login {
         width: 80vw;
+        height: 50vh;
     }
 
     section#login > div#imagem {
@@ -37,17 +38,17 @@ tv: acima 1200px
     }
 
     section#login {
-        width: 900px;
+        width: 950px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
 

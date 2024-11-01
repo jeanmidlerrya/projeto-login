@@ -10,14 +10,14 @@ desktop: 992px a 1200px
 tv: acima 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*CSS PARA TELA TABLETE*/
     body {
         background-image: linear-gradient(to top, white, #5f2c82);
     }
 
     section#login {
         width: 80vw;
-        height: 60vh;
+        height: 70vh;
     }
 
     section#login > div#imagem {
@@ -29,6 +29,14 @@ tv: acima 1200px
     section#login > div#formulario {
         float: right;
         width: 70%;
+    }
+
+    form > div.campo > input[type=email] {
+        width: 90%;
+    }
+
+    form > div.campo > input[type=password] {
+        width: 90%;
     }
 }
 
@@ -54,6 +62,14 @@ tv: acima 1200px
 
     div#formulario > p {
         font-size: 1.1em;
+    }
+
+    form > div.campo > input[type=email] {
+        width: 90%;
+    }
+
+    form > div.campo > input[type=password] {
+        width: 90%;
     }
 
    

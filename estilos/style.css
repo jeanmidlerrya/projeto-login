@@ -61,23 +61,34 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+    margin-bottom: 5px;
 }
 
 form > div.campo > input[type=email] {
     border: solid 1px #5f2c82;
-    width: 80%;
+    width: 84%;
     height: 25px;
     border-radius: 5px;
-    margin: 5px 0px 2px 0px;
+    margin: 0px 0px -5px 0px;
+    float: right;
 }
 
 form > div.campo > input[type=password] {
     border: solid 1px #5f2c82;
-    width: 80%;
+    width: 84%;
     height: 25px;
     border-radius: 5px;
     margin-top: 2px;
     margin-bottom: 5px;
+    float: right;
+}
+
+form > div.campo > span {
+    
+    font-size: 1.8em;
+    width: 35px;
+    
+
 }
 
 div.campo > label {

@@ -17,7 +17,7 @@ tv: acima 1200px
 
     section#login {
         width: 80vw;
-        height: 70vh;
+        height: 75vh;
     }
 
     section#login > div#imagem {
@@ -40,7 +40,7 @@ tv: acima 1200px
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*CSS PARA TELA TELA GRANDE*/
     body {
         background-image: linear-gradient(to top, darkgray, #5f2c82);
     }
